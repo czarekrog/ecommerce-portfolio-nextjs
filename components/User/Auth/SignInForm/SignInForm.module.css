@@ -1,0 +1,36 @@
+.signInForm {
+  width: 300px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.signInForm fieldset {
+  border: none;
+}
+
+.signInForm input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  font-size: 14px;
+  width: 100%;
+}
+
+.signInForm label {
+  margin-left: 5px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.signInForm input:focus {
+  outline: none;
+}
+
+.submitButton {
+  border: none !important;
+  cursor: pointer;
+  width: fit-content !important;
+  padding: 10px 30px !important;
+  align-self: center;
+}

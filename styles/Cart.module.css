@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.header h1 {
+  margin-bottom: 0 !important;
+}
+
+.clearCart {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.clearCart:hover {
+  text-decoration: underline;
+}
+
+.cartTotal {
+  text-align: right;
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+.buyNowButton {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: #eee;
+  cursor: pointer;
+  align-self: center;
+}
+
+.buyNowButton:hover {
+  background-color: rgb(218, 218, 218);
+}

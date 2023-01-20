@@ -1,0 +1,43 @@
+.nav {
+  height: 50px;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li a {
+  margin: 5px 15px;
+}
+
+.userMenu {
+  display: flex;
+  align-items: center;
+}
+
+.userMenu a {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.signOutButton {
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.container {
+  margin-top: 50px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.formTypeSelect {
+  height: 40px;
+}
+
+.formTypeSelectButton {
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  height: 40px;
+}
+
+.formTypeSelectButtonActive {
+  font-weight: 600;
+}

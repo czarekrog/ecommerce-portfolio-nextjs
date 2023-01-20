@@ -1,0 +1,58 @@
+.amountInput {
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  padding: 8px 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.amountInput:focus {
+  outline: none;
+}
+
+/* REMOVING DEFAULT NUMBER INPUT ARROWS */
+.amountInput::-webkit-outer-spin-button,
+.amountInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.amountInput[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.setValueButton button,
+.addToCartButton button {
+  background-color: #fff;
+}
+
+.setValueButton button:hover,
+.addToCartButton button:hover {
+  background-color: #ccc;
+}
+
+.setValueButton {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.addToCartButton {
+  margin-left: 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}

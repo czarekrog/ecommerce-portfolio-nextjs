@@ -1,0 +1,108 @@
+.productListItem {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageTitleSection {
+  display: flex;
+  align-items: center;
+}
+
+.amountPriceSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.productListItem img {
+  object-fit: contain;
+}
+
+.title {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.amountSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.increaseAmount,
+.decreaseAmount {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.decreaseAmount:hover,
+.increaseAmount:hover {
+  background-color: #ccc;
+}
+
+.decreaseAmount {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.increaseAmount {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.amountInput {
+  height: 30px;
+  border: none;
+  text-align: center;
+  width: 60px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.amountInput:focus {
+  outline: none;
+}
+
+.removeButton {
+  margin-right: 8px;
+  font-size: 18px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  color: red;
+}
+
+.total {
+  cursor: default;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+@media (max-width: 600px) {
+  .productListItem {
+    flex-direction: column;
+  }
+
+  /* .imageTitleSection {
+    flex-direction: column;
+  } */
+
+  .productListItem img {
+    min-width: 100px !important;
+    /* height: 200px !important; */
+  }
+}
